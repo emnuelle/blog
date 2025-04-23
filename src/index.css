@@ -57,6 +57,16 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.blog-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 0.5rem 0 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .blog-nav {
   margin-top: 1rem;
 }
@@ -91,6 +101,33 @@ a:hover {
   color: var(--text-muted);
   margin: 0 0.5rem;
 }
+
+.blog-post {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--accent);
+}
+
+.post-política {
+  border-color: #8B0000;
+}
+
+.post-cultura {
+  border-color: #4B0082;
+}
+
+.post-ocultismo {
+  border-color: #551A8B;
+}
+
+.post-espiritual {
+  border-color: #B8860B;
+}
+
+.post-dev {
+  border-color: #555;
+}
+
 
 /* Responsividade */
 @media (max-width: 768px) {
