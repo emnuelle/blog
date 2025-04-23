@@ -12,12 +12,6 @@ function Home() {
 
   return (
     <>
-      <header className="blog-header">
-        <img src="../../public/logo.png" alt="Logo" />
-        <h1>Morcegos Contra o Fascismo</h1>
-        <p>🦇 Blog de ideias, resistência e escuridão poética</p>
-      </header>
-
       <main className="blog-main">
         {posts.map((post) => (
           <article key={post.slug} className="blog-post">
@@ -31,14 +25,7 @@ function Home() {
         ))}
       </main>
 
-      <footer className="blog-footer">
-        <p>© {new Date().getFullYear()} Morcegos Contra o Fascismo</p>
-        <p>
-          Nos siga:
-          <a href="https://instagram.com/..." target="_blank">Instagram</a> |
-          <a href="https://twitter.com/..." target="_blank">Twitter</a>
-        </p>
-      </footer>
+
     </>
   );
 }
